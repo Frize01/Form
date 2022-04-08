@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Formulaire AP</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <meta name="description" content="Formulaire d'AP"/>
+</head>
+
+<body>
+    <form class="formulaireG" method="post" action="#" name="Formulaire AP" id="APForm">
+            <h1>Nouvel Inventaire</h1>
+            <h2>Personne concernée :</h2>
+            <p><input class="formu" name="nom" placeholder="Nom de la personne" required></p>
+
+            <p><input class="formu" name="premon" placeholder="Prénom de la personne" required></p>
+
+            <p><select class="formu" name="poste" required>
+                <option value="">Poste...</option>
+                <option value="pdg">PDG</option>
+                <option value="assDir">Assistante de direction</option>
+                <option value="dirCom">Directeur commercial</option>
+                <option value="com">Commercial</option>
+                <option value="dev">Développeur</option>
+                <option value="dirTech">Directeur technique</option>
+                <option value="dirFin">Directeur Financier</option>
+                <option value="comp">Comptable</option>
+                </select></p>
+
+            <h2>Matériel :</h2>
+
+            <p>Type de matériel : <input name="matType" type="radio" required> Bureau <input name="matType" type="radio" required> Portable </p>
+            <p><input class="formu" name="modele" placeholder="Modèle" required></p>
+
+            <p>Type de matériel : <input name="SE" type="radio" required> Windows 10 <input name="SE" type="radio" required> Windows 11 </p>
+            <p><select class="formu" name="cpu" required>
+                    <option value="">Processeur...</option>
+                    <option value="i3">Intel Core i3</option>
+                    <option value="i5">Intel Core i5</option>
+                    <option value="r5">AMD Ryzen 5</option>
+                    <option value="r7">AMD Ryzen 7</option>
+                </select></p>
+
+            <p><select class="formu" name="ram" required>
+                    <option value="">RAM...</option>
+                    <option value="04">4Go</option>
+                    <option value="08">8Go</option>
+                    <option value="16">16Go</option>
+                </select></p>
+
+            <p><select class="formu" name="dd" required>
+                    <option value="">Stockage...</option>
+                    <optgroup label="HDD">
+                        <option value="500hdd">500Go</option>
+                        <option value="1Tohdd">1To</option>
+                    </optgroup>
+                    <optgroup label="SSD">
+                        <option value="256ssd">256Go</option>
+                        <option value="512ssd">512Go</option>
+                        <option value="1Tssd">1To</option>
+                    </optgroup>
+                </select></p>
+
+            <p><select class="formu" name="ecran" required>
+                    <option value="">Ecran...</option>
+                    <optgroup label="HD">
+                        <option label="14 HD">14" HD</option>
+                    </optgroup>
+
+                    <optgroup label="FHD">
+                        <option label="13.3 FHD">13.3" FHD</option>
+                        <option label="14 FHD">14" FHD</option>
+                        <option label="15.6 FHD">15.6" FHD</option>
+                        <option label="17 FHD">17" FHD</option>
+                        <option label="19 FHD">19" FHD</option>
+                        <option label="21 FHD">21" FHD</option>
+                    </optgroup>
+                </select></p>
+
+                <p><select class="formu" name="gpu" required>
+                    <option value="">Carte graphique...</option>
+                    <option value="amdR">AMD Radeon</option>
+                    <option value="iUHD">Intel UHD</option>
+                    <option value="iUHD630">Intel UHD 630</option>
+                </select></p>
+
+            <input class="formu sub" type="submit" value="Envoyer les données">
+    </form>
+</body>
+
+</html>

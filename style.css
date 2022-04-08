@@ -1,0 +1,43 @@
+body{
+    background-color: #afafaf;
+    animation: bgmove 5s 
+    
+}
+
+@keyframes bgmove {
+    from {background-color: #3d3d3d;}
+    to {background-color: #afafaf;
+    }
+}
+
+.sub{
+    text-align: right;
+}
+
+.formulaireG{
+    text-align: center;
+    font-family: system-ui;
+    
+    
+}
+
+.formu{
+    padding:10px;
+    border:0;
+    box-shadow: 6px 6px 2px 1px rgba(56, 56, 56, 0.2);
+    border-radius: 10ch;
+    width: 40%;
+    border-left: 10%;
+    border-right:10%;
+    text-align: center;
+    border-color: black;
+    font-family: system-ui;
+}
+
+
+
+
+optgroup{
+    color:black;
+    font-style: normal;
+}
